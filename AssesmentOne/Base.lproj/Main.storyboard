@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dGw-z5-nxe">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +21,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Value One" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hKH-g1-gGv">
                                 <rect key="frame" x="88" y="141" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="47" y="141" width="97" height="30"/>
                                 </variation>
@@ -28,7 +29,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Value Two" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XpW-oa-olb">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="269" y="141" width="97" height="30"/>
                                 </variation>
@@ -125,10 +126,10 @@
                                 <exclude reference="6cK-cB-c0L"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="HFb-wu-54d"/>
                                 <exclude reference="4Jw-dW-fUG"/>
                                 <exclude reference="ZT4-yA-cg7"/>
                                 <exclude reference="nY8-F4-eba"/>
-                                <exclude reference="HFb-wu-54d"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -137,10 +138,10 @@
                                 <include reference="6cK-cB-c0L"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="HFb-wu-54d"/>
                                 <include reference="4Jw-dW-fUG"/>
                                 <include reference="ZT4-yA-cg7"/>
                                 <include reference="nY8-F4-eba"/>
-                                <include reference="HFb-wu-54d"/>
                             </mask>
                         </variation>
                     </view>
