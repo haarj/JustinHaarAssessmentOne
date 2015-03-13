@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewViewController.h
 //  AssesmentOne
 //
 //  Created by Justin Haar on 3/13/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WebViewViewController : UIViewController
 
+@property int answer;
 
 @end
-
